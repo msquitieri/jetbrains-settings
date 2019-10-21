@@ -5,9 +5,13 @@
   <action id="Github.Create.Pull.Request">
     <keyboard-shortcut first-keystroke="meta f10" />
   </action>
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="ctrl g" />
+  </action>
   <action id="Scala.ShowImplicits">
     <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
     <keyboard-shortcut first-keystroke="shift ctrl alt add" />
   </action>
+  <action id="SelectNextOccurrence" />
   <action id="UpdateRunningApplication" />
 </keymap>
