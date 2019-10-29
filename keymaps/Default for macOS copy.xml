@@ -7,6 +7,9 @@
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="shift meta d" />
   </action>
+  <action id="EditorSelectLine">
+    <keyboard-shortcut first-keystroke="meta l" />
+  </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="f10" />
@@ -34,6 +37,7 @@
   </action>
   <action id="Uml.ShowDiff" />
   <action id="UpdateRunningApplication" />
+  <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.MoveChangedLinesToChangelist" />
   <action id="XDebugger.CopyWatch" />
   <action id="openAssertEqualsDiff" />
