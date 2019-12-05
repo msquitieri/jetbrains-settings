@@ -871,6 +871,25 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5@gwi/gems/debase-0.2.4.1/test" />
       </excluded>
     </library>
+    <library name="debase (v0.2.5.beta1, RVM: ruby-2.2.5 [gwi]) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5@gwi/gems/debase-0.2.5.beta1/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5@gwi/gems/debase-0.2.5.beta1/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5@gwi/gems/debase-0.2.5.beta1/test" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5@gwi/gems/debase-0.2.5.beta1/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5@gwi/gems/debase-0.2.5.beta1/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5@gwi/gems/debase-0.2.5.beta1/test" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5@gwi/gems/debase-0.2.5.beta1/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5@gwi/gems/debase-0.2.5.beta1/test" />
+      </excluded>
+    </library>
     <library name="debase-ruby_core_source (v0.10.4, RVM: ruby-2.2.5 [gwi]) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -880,6 +899,17 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5@gwi/gems/debase-ruby_core_source-0.10.4/lib" />
+      </SOURCES>
+    </library>
+    <library name="debase-ruby_core_source (v0.10.8, RVM: ruby-2.2.5 [gwi]) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5@gwi/gems/debase-ruby_core_source-0.10.8/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5@gwi/gems/debase-ruby_core_source-0.10.8/lib" />
       </SOURCES>
     </library>
     <library name="debug_inspector (v0.0.2, RVM: ruby-2.2.5 [gwi]) [gem]" type="rubylib">
@@ -3926,6 +3956,25 @@
       </SOURCES>
       <excluded>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5@gwi/gems/rspec_api_documentation-3.1.0/templates" />
+      </excluded>
+    </library>
+    <library name="ruby-debug-ide (v0.7.0, RVM: ruby-2.2.5 [gwi]) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5@gwi/gems/ruby-debug-ide-0.7.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5@gwi/gems/ruby-debug-ide-0.7.0/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5@gwi/gems/ruby-debug-ide-0.7.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5@gwi/gems/ruby-debug-ide-0.7.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5@gwi/gems/ruby-debug-ide-0.7.0/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5@gwi/gems/ruby-debug-ide-0.7.0/lib" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5@gwi/gems/ruby-debug-ide-0.7.0/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.5@gwi/gems/ruby-debug-ide-0.7.0/ext" />
       </excluded>
     </library>
     <library name="ruby-debug-ide (v0.7.0.beta7, RVM: ruby-2.2.5 [gwi]) [gem]" type="rubylib">
