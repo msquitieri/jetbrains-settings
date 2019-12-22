@@ -3,19 +3,25 @@
     <macro name="&lt;noname&gt;">
       <action id="EditorLineEnd" />
       <action id="EditorLineStart" />
-      <typing text-keycode="83:0;72:0;79:0;85:0;76:0;68:0;32:0;72:0;65:0;86:0;69:0;0:1;68:0;66:0;0:1;67:0;79:0;76:0;85:0;77:0;78:0;0:1">should&amp;#x20;have_db_column(</typing>
+      <action id="EditorNextWordWithSelection" />
+      <action id="EditorCopy" />
+      <action id="EditorUp" />
+      <action id="EditorTab" />
+      <action id="EditorTab" />
+      <action id="EditorTab" />
+      <typing text-keycode="0:1">{</typing>
+      <action id="EditorEnter" />
+      <typing text-keycode="78:0;65:0;77:0;69:0;513:1;32:0;222:0">name:&amp;#x20;'</typing>
+      <action id="EditorPaste" />
       <action id="EditorRight" />
-      <action id="EditorBackSpace" />
-      <typing text-keycode="513:1">:</typing>
-      <action id="EditorNextWord" />
+      <typing text-keycode="44:0">,</typing>
+      <action id="EditorEnter" />
+      <typing text-keycode="68:0;73:0;83:0;80:0;76:0;65:0">displa</typing>
+      <action id="EditorChooseLookupItem" />
+      <typing text-keycode="222:0">'</typing>
+      <action id="EditorPaste" />
+      <action id="EditorPreviousWord" />
       <action id="EditorRightWithSelection" />
-      <action id="EditorBackSpace" />
-      <typing text-keycode="0:1">)</typing>
-      <action id="EditorLineEndWithSelection" />
-      <action id="EditorBackSpace" />
-      <action id="EditorDown" />
-      <action id="EditorLineEnd" />
-      <action id="EditorLineStart" />
     </macro>
   </component>
 </application>
