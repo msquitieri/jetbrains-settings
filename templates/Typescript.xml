@@ -1,0 +1,9 @@
+<templateSet group="Typescript">
+  <template name="viewstyle" value="const $VARNAME$: ViewStyle = {&#10;  $CONTENT$&#10;}" description="Creates a ViewStyle constant variable" toReformat="false" toShortenFQNames="true">
+    <variable name="VARNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONTENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
