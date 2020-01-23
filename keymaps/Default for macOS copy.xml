@@ -2,6 +2,7 @@
   <action id="ChangesView.Diff" />
   <action id="ChangesView.Move" />
   <action id="CompareTwoFiles" />
+  <action id="Console.TableResult.MaximizeEditingCell" />
   <action id="Diff.ShowDiff" />
   <action id="Diff.ShowSettingsPopup" />
   <action id="EditorDuplicate">
@@ -21,7 +22,7 @@
     <keyboard-shortcut first-keystroke="ctrl g" />
   </action>
   <action id="PlaybackLastMacro">
-    <keyboard-shortcut first-keystroke="ctrl meta alt m" />
+    <keyboard-shortcut first-keystroke="shift meta alt m" />
   </action>
   <action id="RunDashboard.CopyConfiguration" />
   <action id="Scala.ShowImplicits">
