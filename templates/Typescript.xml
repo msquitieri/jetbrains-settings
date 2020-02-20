@@ -14,4 +14,11 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="useSelector" value="const { $IMPORT$ } = useSelector(&#10;    (state: RootState) =&gt; state.$REDUCER_NAME$,&#10;  );" description="Typescript useSelector" toReformat="false" toShortenFQNames="true">
+    <variable name="IMPORT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="REDUCER_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
