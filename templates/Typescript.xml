@@ -6,10 +6,17 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="trfc" value="import React from 'react';&#10;&#10;interface $FILE_NAME$Props {&#10;    $TYPES$&#10;}&#10;&#10;const $FILE_NAME$ : React.FC&lt;$FILE_NAME$Props&gt; = ({ $PROPS$ }) =&gt; {&#10;    return (&#10;        &lt;div&gt;&#10;        &#10;        &lt;/div&gt;&#10;    );&#10;};&#10;&#10;export default $FILE_NAME$;&#10;" description="TypeScript React Functional Component" toReformat="false" toShortenFQNames="true">
+  <template name="typescriptReactFunctionalComponent" value="import React from 'react';&#10;&#10;interface $FILE_NAME$Props {&#10;    $TYPES$&#10;}&#10;&#10;const $FILE_NAME$ : React.FC&lt;$FILE_NAME$Props&gt; = ({ $PROPS$ }) =&gt; {&#10;    return (&#10;        &lt;div&gt;&#10;        &#10;        &lt;/div&gt;&#10;    );&#10;};&#10;&#10;export default $FILE_NAME$;&#10;" description="TypeScript React Functional Component" toReformat="false" toShortenFQNames="true">
     <variable name="FILE_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TYPES" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PROPS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="useSelector" value="const { $IMPORT$ } = useSelector(&#10;    (state: RootState) =&gt; state.$REDUCER_NAME$,&#10;  );" description="Typescript useSelector" toReformat="false" toShortenFQNames="true">
+    <variable name="IMPORT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="REDUCER_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
