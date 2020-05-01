@@ -21,6 +21,9 @@
   <action id="GotoLine">
     <keyboard-shortcut first-keystroke="ctrl g" />
   </action>
+  <action id="JS.TypeScript.Compile">
+    <keyboard-shortcut first-keystroke="shift meta alt t" />
+  </action>
   <action id="PlaybackLastMacro">
     <keyboard-shortcut first-keystroke="shift meta alt m" />
   </action>
@@ -33,6 +36,12 @@
     <keyboard-shortcut first-keystroke="meta d" />
   </action>
   <action id="SendEOF" />
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="shift meta alt minus" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="shift meta alt back_slash" />
+  </action>
   <action id="StartStopMacroRecording">
     <keyboard-shortcut first-keystroke="shift meta m" />
   </action>
