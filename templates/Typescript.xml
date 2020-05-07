@@ -21,4 +21,12 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="slice" value="import { createSlice, PayloadAction } from '@reduxjs/toolkit';&#10;&#10;interface $FILE_NAME$SliceState {&#10;  $STATE$&#10;}&#10;&#10;const initialState : $FILE_NAME$SliceState = {&#10;  $INITIAL_STATE$&#10;}&#10;&#10;const $FILE_NAME$Slice = createSlice({&#10;  name: '$FILE_NAME$',&#10;  initialState,&#10;  reducers: {&#10;    someReducer(state, action: PayloadAction&lt;string&gt;) {}&#10;  },&#10;});&#10;&#10;export const { someReducer } = $FILE_NAME$Slice.actions;&#10;&#10;export default $FILE_NAME$Slice.reducer;" description="Typescript Redux Toolkit Slice" toReformat="false" toShortenFQNames="true">
+    <variable name="FILE_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="STATE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="INITIAL_STATE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
