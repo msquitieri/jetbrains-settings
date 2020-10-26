@@ -4,20 +4,19 @@
       <action id="EditorLineStart" />
       <action id="EditorLineEnd" />
       <action id="EditorLineStart" />
+      <typing text-keycode="67:0;89:0;46:0;70:0;73:0;78:0;68:0;66:1;89:0;84:1;69:0;88:0;84:0;0:1;70:0;79:0;82:0;77:0;68:1;83:0;80:0;76:0;65:0">cy.findByText(formDspla</typing>
+      <action id="EditorBackSpace" />
+      <action id="EditorBackSpace" />
+      <action id="EditorBackSpace" />
+      <action id="EditorBackSpace" />
+      <typing text-keycode="73:0;83:0;80:0;76:0;65:0;89:0;78:1;65:0;77:0;69:0;0:1">isplayName(</typing>
+      <action id="EditorNextWord" />
+      <typing text-keycode="0:1;0:1;46:0;67:0;76:0;73:0;67:0;75:0;0:1;0:1;59:0">)).click();</typing>
+      <action id="EditorLineEndWithSelection" />
+      <action id="EditorBackSpace" />
+      <action id="EditorDown" />
+      <action id="EditorLineStart" />
       <action id="EditorLineEnd" />
-      <action id="EditorPreviousWord" />
-      <action id="EditorPreviousWord" />
-      <action id="EditorPreviousWordWithSelection" />
-      <action id="EditorPreviousWordWithSelection" />
-      <action id="EditorPreviousWordWithSelection" />
-      <action id="EditorCopy" />
-      <action id="EditorLineEnd" />
-      <action id="EditorLineStartWithSelection" />
-      <typing text-keycode="91:0;93:0">[]</typing>
-      <action id="EditorLeft" />
-      <action id="EditorPaste" />
-      <action id="EditorRight" />
-      <typing text-keycode="513:1;32:1">:&amp;#x20;</typing>
     </macro>
   </component>
 </application>
