@@ -1,19 +1,16 @@
 <application>
   <component name="ActionMacroManager">
     <macro name="&lt;noname&gt;">
+      <action id="EditorLineEnd" />
       <action id="EditorLineStart" />
       <action id="EditorLineEnd" />
       <action id="EditorLineStart" />
-      <typing text-keycode="67:0;89:0;46:0;70:0;73:0;78:0;68:0;66:1;89:0;84:1;69:0;88:0;84:0;0:1;70:0;79:0;82:0;77:0;68:1;83:0;80:0;76:0;65:0">cy.findByText(formDspla</typing>
+      <typing text-keycode="91:1;32:1;65:0">{&amp;#x20;a</typing>
       <action id="EditorBackSpace" />
+      <typing text-keycode="78:0;65:0;77:0;69:0;513:1;32:1">name:&amp;#x20;</typing>
+      <action id="EditorLineEnd" />
       <action id="EditorBackSpace" />
-      <action id="EditorBackSpace" />
-      <action id="EditorBackSpace" />
-      <typing text-keycode="73:0;83:0;80:0;76:0;65:0;89:0;78:1;65:0;77:0;69:0;0:1">isplayName(</typing>
-      <action id="EditorNextWord" />
-      <typing text-keycode="0:1;0:1;46:0;67:0;76:0;73:0;67:0;75:0;0:1;0:1;59:0">)).click();</typing>
-      <action id="EditorLineEndWithSelection" />
-      <action id="EditorBackSpace" />
+      <typing text-keycode="93:1;32:1;44:0">}&amp;#x20;,</typing>
       <action id="EditorDown" />
       <action id="EditorLineStart" />
       <action id="EditorLineEnd" />
