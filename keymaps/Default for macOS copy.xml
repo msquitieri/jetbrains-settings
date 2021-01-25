@@ -45,6 +45,9 @@
   <action id="StartStopMacroRecording">
     <keyboard-shortcut first-keystroke="shift meta m" />
   </action>
+  <action id="TypeScript.Restart.Service">
+    <keyboard-shortcut first-keystroke="ctrl meta alt t" />
+  </action>
   <action id="Uml.ShowDiff" />
   <action id="UpdateRunningApplication" />
   <action id="Vcs.Log.FocusTextFilter" />
