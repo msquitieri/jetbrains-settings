@@ -2,4 +2,9 @@
   <template name="jesttest" value="import React from 'react';&#10;import { render } from '../utils/TestUtils';&#10;&#10;describe('$NAME$', () =&gt; {&#10;  it('does something', async () =&gt; {&#10;    const { getByText } = await render(&lt;$NAME$ /&gt;);&#10;&#10;    expect(getByText('hello')).toBeTruthy();&#10;  });&#10;});&#10;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
   </template>
+  <template name="act" value="await act(async () =&gt; waitForApi());" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
