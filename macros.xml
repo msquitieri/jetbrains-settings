@@ -15,5 +15,12 @@
       <action id="EditorLineStart" />
       <action id="EditorLineEnd" />
     </macro>
+    <macro name="Merge Main">
+      <action id="Git.Branches" />
+      <typing text-keycode="77:0;65:0;73:0;78:0">main</typing>
+      <shortuct text="ENTER" />
+      <typing text-keycode="77:0;69:0;82:0;71:0;69:0">merge</typing>
+      <shortuct text="ENTER" />
+    </macro>
   </component>
 </application>
