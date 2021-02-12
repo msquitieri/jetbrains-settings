@@ -18,6 +18,9 @@
   <action id="Github.Create.Pull.Request">
     <keyboard-shortcut first-keystroke="meta f10" />
   </action>
+  <action id="Github.View.Pull.Request">
+    <keyboard-shortcut first-keystroke="ctrl meta f10" />
+  </action>
   <action id="GotoLine">
     <keyboard-shortcut first-keystroke="ctrl g" />
   </action>
@@ -33,11 +36,20 @@
   <action id="RunConfigurationAsAction_Run_ci_default_target">
     <keyboard-shortcut first-keystroke="meta f9" />
   </action>
+  <action id="RunConfigurationAsAction_Run_install_default_target">
+    <keyboard-shortcut first-keystroke="ctrl meta i" />
+  </action>
+  <action id="RunConfigurationAsAction_Run_lint:fix_default_target">
+    <keyboard-shortcut first-keystroke="ctrl meta l" />
+  </action>
+  <action id="RunConfigurationAsAction_Run_start_default_target">
+    <keyboard-shortcut first-keystroke="ctrl meta s" />
+  </action>
   <action id="RunConfigurationAsAction_Run_test:update_default_target">
-    <keyboard-shortcut first-keystroke="shift alt u" />
+    <keyboard-shortcut first-keystroke="ctrl meta u" />
   </action>
   <action id="RunConfigurationAsAction_Run_test_default_target">
-    <keyboard-shortcut first-keystroke="shift alt j" />
+    <keyboard-shortcut first-keystroke="ctrl meta j" />
   </action>
   <action id="RunDashboard.CopyConfiguration" />
   <action id="Scala.ShowImplicits">
